@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reservations | Aurora Café</title>
+<link rel="stylesheet" href="cafe-design.css">
+</head>
+<body>
+
+<header>
+<nav class="navbar container">
+<a href="cafe-home.html" class="logo">☕ AURORA<span>CAFÉ</span></a>
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="menu-icon">☰</label>
+<div class="nav-links">
+<a href="cafe-home.html">Home</a>
+<a href="cafe-menu.html">Our Menu</a>
+<a class="active" href="cafe-reservations.html">Reservations</a>
+<a href="cafe-gallery.html">Gallery</a>
+<a href="cafe-about.html">About Us</a>
+</div>
+<a href="cafe-reservations.html" class="btn nav-button">Reserve a Table ↗</a>
+</nav>
+</header>
+
+<main>
+<section class="page-hero reservations-hero">
+<div class="container">
+<span class="eyebrow">YOUR TABLE AWAITS</span>
+<h1>Plan Your <em>Visit</em></h1>
+<p>A perfect place for coffee, conversations and special moments.</p>
+</div>
+</section>
+
+<section class="section container reservation-layout">
+<div class="reservation-intro">
+<span class="eyebrow">LET'S MEET OVER COFFEE</span>
+<h2>Make Some <em>Beautiful Memories.</em></h2>
+<p>Whether you're planning a friendly gathering, a family meal or a relaxing afternoon, Aurora Café offers an inviting atmosphere.</p>
+
+<div class="contact-item">
+<span>🕒</span>
+<div><h3>Sample Opening Hours</h3><p>Monday – Sunday: 9:00 AM – 10:00 PM</p></div>
+</div>
+<div class="contact-item">
+<span>📍</span>
+<div><h3>Location</h3><p>Fictional café concept, Andhra Pradesh, India</p></div>
+</div>
+<div class="contact-item">
+<span>☕</span>
+<div><h3>Our Experience</h3><p>Fresh coffee, delicious meals and cozy surroundings.</p></div>
+</div>
+<img class="reservation-image" src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=900" alt="Cozy café interior">
+</div>
+
+<form class="reservation-form" action="cafe-reservations.html" method="get">
+<h2>Table Inquiry</h2>
+<p>Fill in the details to explore a sample reservation form.</p>
+
+<label for="guest-name">Full Name</label>
+<input type="text" id="guest-name" placeholder="Enter your full name" required>
+
+<label for="guest-email">Email Address</label>
+<input type="email" id="guest-email" placeholder="you@example.com" required>
+
+<label for="guest-count">Number of Guests</label>
+<select id="guest-count" required>
+<option value="">Select guests</option>
+<option>1 Guest</option>
+<option>2 Guests</option>
+<option>3 Guests</option>
+<option>4 Guests</option>
+<option>5 or More Guests</option>
+</select>
+
+<label for="booking-date">Preferred Date</label>
+<input type="date" id="booking-date" required>
+
+<label for="booking-time">Preferred Time</label>
+<input type="time" id="booking-time" required>
+
+<label for="notes">Special Requests</label>
+<textarea id="notes" rows="4" placeholder="Any special requests?"></textarea>
+
+<button type="submit" class="btn">Submit Demo Inquiry →</button>
+<p class="demo-note">This form is a front-end demonstration. No table is reserved, and no data is saved or sent to the café.</p>
+</form>
+</section>
+</main>
+
+<footer>
+<div class="container footer-content">
+<div><a class="logo" href="cafe-home.html">☕ AURORA<span>CAFÉ</span></a><p>Brewing happiness, one cup at a time.</p></div>
+<div class="footer-links"><a href="cafe-home.html">Home</a><a href="cafe-menu.html">Menu</a><a href="cafe-reservations.html">Reservations</a><a href="cafe-gallery.html">Gallery</a><a href="cafe-about.html">About</a></div>
+</div>
+<p class="copyright">© 2026 Aurora Café | College Web Development Project</p>
+</footer>
+
+</body>
+</html>
